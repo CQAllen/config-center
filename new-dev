@@ -1,0 +1,19 @@
+core.db.url=jdbc:mysql://127.0.0.1:3306/news?&useUnicode=true&characterEncoding=utf-8&autoReconnect=true&useSSL=false
+core.db.username=root
+core.db.password=remote123
+core.db.type=com.alibaba.druid.pool.DruidDataSource
+core.db.driverClassName=com.mysql.jdbc.Driver
+core.db.initialSize=5
+core.db.minIdle=50
+core.db.maxActive=200
+core.db.maxWait=60000
+core.db.timeBetweenEvictionRunsMills=60000
+core.db.minEvictableIdleTimeMillis=300000
+core.db.validationQuery=SELECT 1 FROM DUAL
+core.db.testWhileIdle=true
+core.db.testOnBorrow=false
+core.db.testOnReturn=false
+core.db.poolPreparedStatements=true
+core.db.maxPoolPreparedStatementPerConnectionSize=200
+core.db.filters=stat,wall,slf4j
+core.db.connectionProperties=druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
